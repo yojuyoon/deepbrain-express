@@ -1,10 +1,12 @@
 {
-  "name": "soccer-express",
+  "name": "yoonjiyoung-express",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "dev": "node app"
   },
+  "main": "app.js",
   "dependencies": {
     "axios": "^0.24.0",
     "cookie-parser": "~1.4.4",
